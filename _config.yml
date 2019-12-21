@@ -67,7 +67,7 @@ disqus:  #shortname
 gitalk:
   clientID: 06270cf211c65f82034d
   clientSecret: c6f567f50d7f54277a7bddc741bebe55ef458e70
-  repo: lock_door
+  repo: 846400461.github.io
   owner: 846400461
 
 # 输入Google Analytics web tracking code
