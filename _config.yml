@@ -23,13 +23,13 @@ favicon: https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/fav
 # 菜单中的按钮
 navigation:
   - name: 首页
-    url: /blog
+    url: /
   - name: 关于
-    url: /blog/about
+    url: /about
   - name: 归档
-    url: /blog/archive
+    url: /archive
   - name: 标签
-    url: /blog/tags
+    url: /tags
 
 # 每页的文章数
 paginate: 8
@@ -61,13 +61,13 @@ footer-text: Copyright (c) 2019 不知名人物
 # 评论，注意，请不要同时添加多种不同的评论区
 
 # 输入Disqus shortname，即可添加评论区
-disqus: loffer #shortname
+disqus:  #shortname
 
 # 输入Gitalk相关设定，即可添加评论区
 gitalk:
   clientID: 06270cf211c65f82034d
   clientSecret: c6f567f50d7f54277a7bddc741bebe55ef458e70
-  repo: blog
+  repo: lock_door
   owner: 846400461
 
 # 输入Google Analytics web tracking code
@@ -79,7 +79,7 @@ url: binpro.xyz
 # 添加你的博客的二级域名，一般来说是你的repository名
 # 如果你的博客的URL是：(http://yourusername.github.io/repository-name)
 # 那么就写成 "/repository-name"
-baseurl: /
+baseurl: 
 
 
 #
