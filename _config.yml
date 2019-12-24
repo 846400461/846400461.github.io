@@ -66,7 +66,7 @@ disqus:  #shortname
 # 输入Gitalk相关设定，即可添加评论区
 gitalk:
   clientID: 06270cf211c65f82034d
-  clientSecret: c6f567f50d7f54277a7bddc741bebe55ef458e70
+  clientSecret: 691ff21279f73b77feedbd58040c62644eb6206c
   repo: 846400461.github.io
   owner: 846400461
 
