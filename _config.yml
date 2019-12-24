@@ -14,10 +14,10 @@ description: 还没有任何干货的博客
 #
 
 # 你的博客logo图片URL，建议尺寸不超过300px × 300px
-avatar: ../images/Take_OFF.png
+avatar: ../images/clock_face.svg
 
 # 你的favicon（出现在浏览器tab上）图片URL，建议使用较小(64px × 64px)的图片
-favicon: ../images/autumn-backgrounds94.jpg
+favicon: ../images/clock_face.svg
 
 
 # 菜单中的按钮
