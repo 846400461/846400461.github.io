@@ -65,8 +65,8 @@ disqus:  #shortname
 
 # 输入Gitalk相关设定，即可添加评论区
 gitalk:
-  clientID: 06270cf211c65f82034d
-  clientSecret: 691ff21279f73b77feedbd58040c62644eb6206c
+  clientID: cb5c6c2b7e6858782a4f
+  clientSecret: f1355c081e9892d76b64fe60fd7d7485feb6b018
   repo: 846400461.github.io
   owner: 846400461
 
@@ -74,7 +74,7 @@ gitalk:
 google_analytics:
 
 # 输入你的网站域名（如果你没有添加自己的域名，而是直接用GitHub pages分配的域名的话可以省略）
-url: binpro.xyz
+url: binpro.xyz/
 
 # 添加你的博客的二级域名，一般来说是你的repository名
 # 如果你的博客的URL是：(http://yourusername.github.io/repository-name)
