@@ -45,7 +45,7 @@ footer-links:
   email: 846400461@qq.com 
   facebook: #https://www.facebook.com/<>
   flickr: #https://www.flickr.com/<>
-  github: 846400461 #https://github.com/<>
+  github: nibtod #https://github.com/<>
   instagram: #https://instagram.com/<>
   linkedin: #https://www.linkedin.com/in/<>
   pinterest: #https://www.pinterest.com/<>
@@ -67,8 +67,8 @@ disqus:  #shortname
 gitalk:
   clientID: cb5c6c2b7e6858782a4f
   clientSecret: f1355c081e9892d76b64fe60fd7d7485feb6b018
-  repo: 846400461.github.io
-  owner: 846400461
+  repo: nibtod.github.io
+  owner: nibtod
 
 # 输入Google Analytics web tracking code
 google_analytics:
