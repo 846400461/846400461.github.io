@@ -29,12 +29,18 @@ gradle是专注于灵活性和性能的开源构建自动化工具，而gradle�
 
 在标准的gradle project 可以不用下载安装gradle，通过执行gradlew脚本便可以自动下载指定版本的gradle，具体下载什么版本以及其他配置选项主要由gradle-wrapper.properties文件决定，根据project的需求gradle-wrapper.properties内容可能不会一致，大概内容格式如下：
 
-```
+```shell
 distributionBase=GRADLE_USER_HOME
 distributionPath=wrapper/dists
 distributionUrl=https\://services.gradle.org/distributions/gradle-6.0.1-bin.zip
-zipStoreBase=GRADLE_USER_HOME
-zipStorePath=wrapper/dists
+
+##GRADLE_USER_HOME环境变量默认是$USER_HOME/.gradle，对应的目录是~/.gradle,zipStoreBase变量表示的是gradle
+##压缩包存储的基础路径，gradle压缩包内包含对应版本的gradle可执行文件以及一些gradle的资源。
+zipStoreBase=GRADLE_USER_HOME	
+
+##zipStorePath环境变量是gradle存储路径的相当路径，在执行./gradlew后，会下载对应版本的gradle，而下载下来的
+##的压缩包存储路径=zipStoreBase/zipStorePath=~/.gradle/wrapper/dists
+zipStorePath=wrapper/dists		
 ```
 
 如果仔细查看gradlew脚本的内容，会发现其实这个脚本就是检查当前环境是否合法（查看是有安装jdk），然后执行gradle-wrapper.jar，也就是说gradlew脚本依赖于gradle-wrapper.jar，并且gradle-wrapper.jar才是最终执行gradle相关操作的核心程序，所以想要通过gradlew自动下载gradle环境的前提：
